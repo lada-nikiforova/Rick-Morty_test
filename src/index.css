@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@font-face {
+  font-family: 'PatsySans';
+  src: url('../src/font/PatsySans.otf') ;
+  font-display: swap;
+}
+@theme{
+  --color-gray: rgb(114, 114, 114);
+  --color-white: rgb(246, 246, 246);
+  --color-orange: rgb(234, 147, 69);
+  --color-green: rgb(149, 202, 75);
+  --color-black: rgb(51, 51, 51);
+  --font-patsy: 'PatsySans';
+}
